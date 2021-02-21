@@ -1,0 +1,30 @@
+<div *ngIf="!schoolEvent">
+  <mat-spinner></mat-spinner>
+</div>
+<div *ngIf="schoolEvent">
+  <mat-card>
+    <mat-card-header>
+      <mat-card-title>{{ schoolEvent.name }}</mat-card-title>
+      <mat-card-subtitle>
+        Event Date {{ schoolEvent.date | date: 'd LLLL'}}
+      </mat-card-subtitle>
+    </mat-card-header>
+    <mat-card-content>
+      <mat-tab-group>
+        <mat-tab label="Description">
+          <p>
+            {{schoolEvent.description}}
+          </p>
+        </mat-tab>
+        <mat-tab label="Pictures">
+          <p>
+            {{schoolEvent.pictures}}
+          </p>
+        </mat-tab>
+        <mat-tab label="Notes">
+          <app-notes [notes]="schoolEvent.notes"></app-notes>
+        </mat-tab>
+      </mat-tab-group>
+    </mat-card-content>
+  </mat-card>
+</div>
