@@ -7,6 +7,7 @@ import { Routes, RouterModule } from '@angular/router';
 import { AppComponent } from './app.component';
 import { HttpClientModule } from '@angular/common/http';
 
+
 const routes: Routes = [
   { path: 'schoolmanager', loadChildren: () => import('./schoolmanager/schoolmanager.module').then(m => m.SchoolManagerModule) },
   { path: '**', redirectTo: 'schoolmanager' }
@@ -15,6 +16,7 @@ const routes: Routes = [
 @NgModule({
   declarations: [
     AppComponent
+    
   ],
   imports: [
     BrowserModule,

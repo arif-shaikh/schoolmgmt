@@ -14,7 +14,7 @@ import { SchoolService } from './services/school.service';
 import { HttpClientModule } from '@angular/common/http';
 import { NotesComponent } from './components/notes/notes.component';
 import { NewContactDialogComponent } from './components/new-contact-dialog/new-contact-dialog.component';
-
+import {ImageDisplayComponent} from './components/image-display/image-display.component';
 const routes: Routes = [
   {
     path: '', component: SchoolManagerAppComponent,
@@ -39,6 +39,13 @@ const routes: Routes = [
   providers: [
     SchoolService
   ],
-  declarations: [SchoolManagerAppComponent, ToolbarComponent, MainContentComponent, SidenavComponent, NotesComponent, NewContactDialogComponent]
+  declarations: [
+    SchoolManagerAppComponent, 
+    SidenavComponent, 
+    MainContentComponent, 
+    ToolbarComponent, 
+    NotesComponent, 
+    NewContactDialogComponent,
+    ImageDisplayComponent ]
 })
 export class SchoolManagerModule { }

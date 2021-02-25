@@ -15,10 +15,8 @@
           <p>
             {{schoolEvent.description}}
           </p>
-        </mat-tab>
-        <mat-tab label="Pictures">
           <p>
-            {{schoolEvent.pictures}}
+            <app-image-display [imageList] = "schoolEvent.images"></app-image-display>
           </p>
         </mat-tab>
         <mat-tab label="Notes">

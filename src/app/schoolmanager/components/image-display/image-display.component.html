@@ -1,0 +1,22 @@
+<div class="flex-container" *ngIf="imageList.length != 0">
+    <div *ngFor="let eachImageItem of imageList">
+        <mat-card>
+            <mat-card-header>
+                <mat-card-title >
+                    Memory  {{eachImageItem.id}}
+                </mat-card-title>
+                <!-- <mat-card-subtitle>
+                    {{eachImageItem.id}}
+                </mat-card-subtitle> -->
+            </mat-card-header>
+            
+            <mat-card-content>
+                <img mat-card-image src="{{eachImageItem.image}}" height="200px" width="200px">
+               
+                {{eachImageItem.description}} 
+                  
+            </mat-card-content>
+        </mat-card>
+    </div >
+</div >
+

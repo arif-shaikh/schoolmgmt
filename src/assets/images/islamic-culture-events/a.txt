@@ -1,0 +1,18 @@
+a.txt
+{"id": 1, "image": "./assets/images/islamic-culture-events/IMG_20210222_100021.jpg", descript
+{"id": 1, "image": "./assets/images/islamic-culture-events/IMG_20210222_100034.jpg", descript
+{"id": 1, "image": "./assets/images/islamic-culture-events/IMG_20210222_100050.jpg", descript
+{"id": 1, "image": "./assets/images/islamic-culture-events/IMG_20210222_100104.jpg", descript
+{"id": 1, "image": "./assets/images/islamic-culture-events/IMG_20210222_100121.jpg", descript
+{"id": 1, "image": "./assets/images/islamic-culture-events/IMG_20210222_100134.jpg", descript
+{"id": 1, "image": "./assets/images/islamic-culture-eventions/IMG_20210222_100148.jpg", descript
+{"id": 1, "image": "./assets/images/islamic-culture-events/IMG_20210222_100159.jpg", descript
+{"id": 1, "image": "./assets/images/islamic-culture-events/IMG_20210222_100213.jpg", descript
+{"id": 1, "image": "./assets/images/islamic-culture-events/IMG_20210222_100224.jpg", descript
+{"id": 1, "image": "./assets/images/islamic-culture-events/IMG_20210222_100238.jpg", descript
+{"id": 1, "image": "./assets/images/islamic-culture-events/IMG_20210222_100305.jpg", descript
+{"id": 1, "image": "./assets/images/islamic-culture-events/IMG_20210222_100322.jpg", descript
+{"id": 1, "image": "./assets/images/islamic-culture-events/IMG_20210222_100334.jpg", descript
+{"id": 1, "image": "./assets/images/islamic-culture-events/IMG_20210222_100351.jpg", descript
+{"id": 1, "image": "./assets/images/islamic-culture-events/IMG_20210222_100403.jpg", descript
+{"id": 1, "image": "./assets/images/islamic-culture-events/IMG_20210222_100416.jpg", descript
