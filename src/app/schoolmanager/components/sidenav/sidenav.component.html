@@ -7,10 +7,16 @@
       School Manager
     </mat-toolbar>
     <mat-nav-list>
+      <mat-list-item>
+        <a matLine [routerLink]="['/schoolmanager/home']">Home</a>
+      </mat-list-item>
       <mat-list-item *ngFor="let schoolEvent of schoolEvents | async">
         <a matLine [routerLink]="['/schoolmanager', schoolEvent.id]">
           {{ schoolEvent.name }}
         </a>
+      </mat-list-item>
+      <mat-list-item>
+        <a matLine [routerLink]="['/schoolmanager/management']">Management</a>
       </mat-list-item>
     </mat-nav-list>
   </mat-sidenav>

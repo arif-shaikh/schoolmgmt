@@ -15,12 +15,16 @@ import { HttpClientModule } from '@angular/common/http';
 import { CommentsComponent } from './components/comments/comments.component';
 import { NewContactDialogComponent } from './components/new-contact-dialog/new-contact-dialog.component';
 import {ImageDisplayComponent} from './components/image-display/image-display.component';
+import { HomeComponent } from './components/home/home.component';
+import { ManagementComponent } from './components/management/management.component';
 const routes: Routes = [
   {
     path: '', component: SchoolManagerAppComponent,
     children: [
+      { path: 'home', component: HomeComponent },
+      { path: 'management', component: ManagementComponent },
       { path: ':id', component: MainContentComponent },
-      { path: '', component: MainContentComponent }
+      { path: '', component: HomeComponent }
     ]
   },
   { path: '**', redirectTo: '' }
@@ -46,6 +50,8 @@ const routes: Routes = [
     ToolbarComponent, 
     CommentsComponent, 
     NewContactDialogComponent,
-    ImageDisplayComponent ]
+    ImageDisplayComponent,
+    HomeComponent,
+    ManagementComponent ]
 })
 export class SchoolManagerModule { }
