@@ -1,7 +1,7 @@
 [{
   "id": 1,
   "name": "Achievements",
-  "description": "I have, have together. Day green own divide wherein. Seas the make days him fish night their don't a, life under lights bearing for seasons Signs night sea given spirit his had spirit divided us blessed. Brought great waters. Blessed winged doesn't a Fly, form bring land, heaven great. Isn't upon. Dominion moving day. So first firmament give spirit every.",
+  "description": "It was  a day when Allah Fulfill the dreams of Riyaz Sir on 23rd of July 1999, It was opening of Al-Ummat Education Society and Alhamdullilah till date the School is running very smoothly and gain big big achievements and many proud moment and memory with the school.",
   "date": "1980-02-04T00:00:00",
   "images": [
     {"id": 1, "image": "./assets/images/achievements/IMG_20210222_094853.jpg", "description" : "Photo #01"},
@@ -23,25 +23,25 @@
     {"id": 17, "image": "./assets/images/achievements/IMG_20210222_095210.jpg", "description" : "Photo #17"},
     {"id": 18, "image": "./assets/images/achievements/IMG_20210222_095211.jpg", "description" : "Photo #18"}
   ],
-  "notes": [{
+  "comments": [{
     "id": 1,
-    "title": "Pay back dinner",
+    "text": "Great Achievements for Al Ummat",
     "date": "2021-02-23T04:53:11.7461083Z"
   }, {
     "id": 2,
-    "title": "Buy flowers for birthday",
+    "text": "Congratulations to all students and staff members",
     "date": "2021-03-07T04:53:11.7461326Z"
   }, {
     "id": 3,
-    "title": "Do something",
+    "text": "Do something",
     "date": "2021-03-17T04:53:11.746133Z"
   }, {
     "id": 4,
-    "title": "Make something",
+    "text": "Something great and big in life",
     "date": "2021-03-27T04:53:11.7461332Z"
   }, {
     "id": 5,
-    "title": "Be something",
+    "text": "Bravo to one and all",
     "date": "2021-04-06T04:53:11.7461334Z"
   }]
 }, {
@@ -68,11 +68,11 @@
     {"id": 16, "image": "./assets/images/islamic-culture-events/IMG_20210222_100403.jpg", "description" : "Photo #16"},
     {"id": 17, "image": "./assets/images/islamic-culture-events/IMG_20210222_100416.jpg", "description" : "Photo #17"}
   ],
-  "notes": []
+  "comments": []
 }, {
   "id": 3,
   "name": "Sports",
-  "description": "Make beginning midst life abundantly from in after light. Without may kind there, seasons lights signs, give made moved. Fruit fly under forth firmament likeness unto lights appear also one open seasons fruitful doesn't all of cattle Won't doesn't beginning days from saw, you're shall. Given our midst from made moving form heaven good gathering appear beginning first. Sea the.",
+  "description": "Sports play great role in improving and maintaining the health and fitness, improving mental skills and concentration level as well as social and communication skills Playing sports on regular basis prevents person form the many diseases and disorders of the body organs especially overweight obese and he art problems Children should never be demoted for playing the sports Instead they should be promoted.",
   "date": "1975-10-11T00:00:00",
   "images": [
     {"id": 1, "image": "./assets/images/sport/IMG_20210222_100639.jpg", "description" : "Photo #01"},
@@ -83,11 +83,11 @@
     {"id": 6, "image": "./assets/images/sport/IMG_20210222_100845.jpg", "description" : "Photo #06"},
     {"id": 7, "image": "./assets/images/sport/IMG_20210222_100902.jpg", "description" : "Photo #07"}
   ],
-  "notes": []
+  "comments": []
 }, {
   "id": 4,
   "name": "World Environment Day",
   "description": "Made whales called whose. Day brought one saying called man saw moved thing light sea evening multiply given Isn't gathering fourth you're. Let female give two earth him yielding had grass let doesn't were moving male blessed Moving in. You'll void face fish void them. Sixth, it moveth set female. Creature the, to. Third upon sea in wherein replenish Fish.",
   "date": "1983-03-16T00:00:00",
-  "notes": []
+  "comments": []
 }]

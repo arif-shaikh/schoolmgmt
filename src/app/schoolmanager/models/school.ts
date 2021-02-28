@@ -1,4 +1,4 @@
-import { Note } from './note';
+import { Comment } from './comment';
 
 export class SchoolEvent {
     id: number;
@@ -6,5 +6,5 @@ export class SchoolEvent {
     name: string;
     description: string;
 
-    notes: Note[] = [];
+    comments: Comment[] = [];
 }

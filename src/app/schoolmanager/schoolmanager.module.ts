@@ -12,7 +12,7 @@ import { MainContentComponent } from './components/main-content/main-content.com
 import { SidenavComponent } from './components/sidenav/sidenav.component';
 import { SchoolService } from './services/school.service';
 import { HttpClientModule } from '@angular/common/http';
-import { NotesComponent } from './components/notes/notes.component';
+import { CommentsComponent } from './components/comments/comments.component';
 import { NewContactDialogComponent } from './components/new-contact-dialog/new-contact-dialog.component';
 import {ImageDisplayComponent} from './components/image-display/image-display.component';
 const routes: Routes = [
@@ -44,7 +44,7 @@ const routes: Routes = [
     SidenavComponent, 
     MainContentComponent, 
     ToolbarComponent, 
-    NotesComponent, 
+    CommentsComponent, 
     NewContactDialogComponent,
     ImageDisplayComponent ]
 })
