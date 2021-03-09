@@ -2,6 +2,7 @@ import { Injectable } from '@angular/core';
 import { SchoolEvent } from '../models/school';
 import { HttpClient } from '@angular/common/http';
 import { BehaviorSubject, Observable } from 'rxjs';
+import { FeesStructure } from '../models/feesstructure';
 
 @Injectable()
 export class SchoolService {
@@ -44,6 +45,10 @@ export class SchoolService {
       }, error => {
         console.log("Failed to fetch users")
       });
+  }
+  getFeesHighSchool() {
+    const feesHighScoolInfo = "./assets/fees-highschool.json"
+    return this.http.get<FeesStructure[]>(feesHighScoolInfo);
   }
 
 }

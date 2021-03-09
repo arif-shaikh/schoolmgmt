@@ -17,11 +17,15 @@ import { NewContactDialogComponent } from './components/new-contact-dialog/new-c
 import {ImageDisplayComponent} from './components/image-display/image-display.component';
 import { HomeComponent } from './components/home/home.component';
 import { ManagementComponent } from './components/management/management.component';
+import { FeesstructureComponent } from './components/feesstructure/feesstructure.component';
+import { TeacherlistComponent } from './components/teacherlist/teacherlist.component';
 const routes: Routes = [
   {
     path: '', component: SchoolManagerAppComponent,
     children: [
       { path: 'home', component: HomeComponent },
+      { path: 'feesstructure', component: FeesstructureComponent },
+      { path: 'teacherlist', component: TeacherlistComponent },
       { path: 'management', component: ManagementComponent },
       { path: ':id', component: MainContentComponent },
       { path: '', component: HomeComponent }
@@ -52,6 +56,8 @@ const routes: Routes = [
     NewContactDialogComponent,
     ImageDisplayComponent,
     HomeComponent,
-    ManagementComponent ]
+    ManagementComponent,
+    FeesstructureComponent,
+    TeacherlistComponent ]
 })
 export class SchoolManagerModule { }
