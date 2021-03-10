@@ -3,6 +3,7 @@ import { SchoolEvent } from '../models/school';
 import { HttpClient } from '@angular/common/http';
 import { BehaviorSubject, Observable } from 'rxjs';
 import { FeesStructure } from '../models/feesstructure';
+import { TeacherInfo } from '../models/teacherInfo';
 
 @Injectable()
 export class SchoolService {
@@ -54,5 +55,9 @@ export class SchoolService {
   getFeesPrimarySchool() {
     const feesHighScoolInfo = "./assets/fees-primaryschool.json"
     return this.http.get<FeesStructure[]>(feesHighScoolInfo);
+  }
+  getTeacherList() {
+    const teacherInfo = "./assets/teacher-list.json"
+    return this.http.get<TeacherInfo[]>(teacherInfo);
   }
 }
