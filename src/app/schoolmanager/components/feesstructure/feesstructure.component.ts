@@ -30,4 +30,27 @@ export class FeesstructureComponent implements OnInit {
     )
     
   }
+
+  selectFeesStructure($event): void {
+    if($event.index == 0){
+      this.schoolService.getFeesHighSchool().
+      subscribe (
+        data=> {
+          this.fees = data;
+          this.dataSource = new MatTableDataSource<FeesStructure>(this.fees);
+        },
+        err => console.log(err)
+      )
+    } else {
+      this.schoolService.getFeesPrimarySchool().
+      subscribe (
+        data=> {
+          this.fees = data;
+          this.dataSource = new MatTableDataSource<FeesStructure>(this.fees);
+        },
+        err => console.log(err)
+      )
+    }
+    
+  }
 }

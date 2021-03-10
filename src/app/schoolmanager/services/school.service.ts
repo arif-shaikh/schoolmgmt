@@ -51,4 +51,8 @@ export class SchoolService {
     return this.http.get<FeesStructure[]>(feesHighScoolInfo);
   }
 
+  getFeesPrimarySchool() {
+    const feesHighScoolInfo = "./assets/fees-primaryschool.json"
+    return this.http.get<FeesStructure[]>(feesHighScoolInfo);
+  }
 }

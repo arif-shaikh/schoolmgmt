@@ -1,78 +1,78 @@
 [{
-    "Fees Category": "Tution Fees",
+    "feesCategory": "Tution Fees",
     "Jun": "500",
-    " Nov": "2500",
+    "Nov": "2500",
     "Dec": "500",
     "May": "2500",
-    "Total ": "6000"
+    "Total": "6000"
 }, {
-    "Fees Category": "Admission Fees",
+    "feesCategory": "Admission Fees",
     "Jun": "250",
-    " Nov": "",
-    "Dec": "",
-    "May": "",
-    "Total ": "250"
+    "Nov": " - ",
+    "Dec": " - ",
+    "May": " - ",
+    "Total": "250"
 }, {
-    "Fees Category": "Ist Exam Fee",
+    "feesCategory": "Ist Exam Fee",
     "Jun": "250",
-    " Nov": "",
-    "Dec": "",
-    "May": "",
-    "Total ": "250"
+    "Nov": " - ",
+    "Dec": " - ",
+    "May": " - ",
+    "Total": "250"
 }, {
-    "Fees Category": "Worksheet",
+    "feesCategory": "Worksheet",
     "Jun": "50",
-    " Nov": "",
+    "Nov": " - ",
     "Dec": "50",
-    "May": "",
-    "Total ": "100"
+    "May": " - ",
+    "Total": "100"
 }, {
-    "Fees Category": "Calendar & I.D. Card fee",
+    "feesCategory": "Calendar & I.D. Card fee",
     "Jun": "100",
-    " Nov": "",
-    "Dec": "",
-    "May": "",
-    "Total ": "100"
+    "Nov": " - ",
+    "Dec": " - ",
+    "May": " - ",
+    "Total": "100"
 }, {
-    "Fees Category": "Ist Term Fee",
+    "feesCategory": "Ist Term Fee",
     "Jun": "500",
-    " Nov": "",
+    "Nov": " - ",
     "Dec": "300",
-    "May": "",
-    "Total ": "800"
+    "May": " - ",
+    "Total": "800"
 }, {
-    "Fees Category": "Miscellaneous Fee",
+    "feesCategory": "Miscellaneous Fee",
     "Jun": "400",
-    " Nov": "",
+    "Nov": " - ",
     "Dec": "450",
-    "May": "",
-    "Total ": "850"
+    "May": " - ",
+    "Total": "850"
 }, {
     "Fees Category": "Computer / Deeniyat (June to Nov)",
     "Jun": "400",
-    " Nov": "",
-    "Dec": "",
-    "May": "",
-    "Total ": "400"
+    "Nov": " - ",
+    "Dec": " - ",
+    "May": " - ",
+    "Total": "400"
 }, {
-    "Fees Category": "IInd Term Fee",
-    "Jun": "",
-    " Nov": "",
+    "feesCategory": "IInd Term Fee",
+    "Jun": " - ",
+    "Nov": " - ",
     "Dec": "500",
-    "May": "",
-    "Total ": "500"
+    "May": " - ",
+    "Total": "500"
 }, {
-    "Fees Category": "Computer / Deeniyat (Dec to May)",
-    "Jun": "",
-    " Nov": "",
+    "feesCategory": "Computer / Deeniyat (Dec to May)",
+    "Jun": " - ",
+    "Nov": " - ",
     "Dec": "450",
-    "May": "",
-    "Total ": "450"
+    "May": " - ",
+    "Total": "450"
 }, {
-    "Fees Category": "Total Fees",
+    "feesCategory": "Total Fees",
     "Jun": "2450",
-    " Nov": "2500",
+    "Nov": "2500",
     "Dec": "2250",
     "May": "2500",
-    "Total ": "9700"
+    "Total": "9700"
 }]
