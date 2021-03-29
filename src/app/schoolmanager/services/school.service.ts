@@ -4,6 +4,7 @@ import { HttpClient } from '@angular/common/http';
 import { BehaviorSubject, Observable } from 'rxjs';
 import { FeesStructure } from '../models/feesstructure';
 import { TeacherInfo } from '../models/teacherInfo';
+import { StudentStructure } from '../models/student';
 
 @Injectable()
 export class SchoolService {
@@ -60,4 +61,38 @@ export class SchoolService {
     const teacherInfo = "./assets/teacher-list.json"
     return this.http.get<TeacherInfo[]>(teacherInfo);
   }
+
+  get3rdStdStudentList() {
+    const studentInfo = "./assets/studentdb/3rd.json"
+    return this.http.get<StudentStructure[]>(studentInfo);
+  }
+  get4thStdStudentList() {
+    const studentInfo = "./assets/studentdb/4th.json"
+    return this.http.get<StudentStructure[]>(studentInfo);
+  }
+  get5thStdStudentList() {
+    const studentInfo = "./assets/studentdb/5th.json"
+    return this.http.get<StudentStructure[]>(studentInfo);
+  }
+  get6thStdStudentList() {
+    const studentInfo = "./assets/studentdb/6th.json"
+    return this.http.get<StudentStructure[]>(studentInfo);
+  }
+  get7thStdStudentList() {
+    const studentInfo = "./assets/studentdb/7th.json"
+    return this.http.get<StudentStructure[]>(studentInfo);
+  }
+  get8thStdStudentList() {
+    const studentInfo = "./assets/studentdb/8th.json"
+    return this.http.get<StudentStructure[]>(studentInfo);
+  }
+  get9thStdStudentList() {
+    const studentInfo = "./assets/studentdb/8th.json"
+    return this.http.get<StudentStructure[]>(studentInfo);
+  }
+  get10thStdStudentList() {
+    const studentInfo = "./assets/studentdb/10th.json"
+    return this.http.get<StudentStructure[]>(studentInfo);
+  }
+  
 }

@@ -19,6 +19,7 @@ import { HomeComponent } from './components/home/home.component';
 import { ManagementComponent } from './components/management/management.component';
 import { FeesstructureComponent } from './components/feesstructure/feesstructure.component';
 import { TeacherlistComponent } from './components/teacherlist/teacherlist.component';
+import { StudentlistComponent } from './components/studentlist/studentlist.component';
 const routes: Routes = [
   {
     path: '', component: SchoolManagerAppComponent,
@@ -26,6 +27,7 @@ const routes: Routes = [
       { path: 'home', component: HomeComponent },
       { path: 'feesstructure', component: FeesstructureComponent },
       { path: 'teacherlist', component: TeacherlistComponent },
+      { path: 'studentlist', component: StudentlistComponent },
       { path: 'management', component: ManagementComponent },
       { path: ':id', component: MainContentComponent },
       { path: '', component: HomeComponent }
@@ -58,6 +60,7 @@ const routes: Routes = [
     HomeComponent,
     ManagementComponent,
     FeesstructureComponent,
-    TeacherlistComponent ]
+    TeacherlistComponent,
+    StudentlistComponent ]
 })
 export class SchoolManagerModule { }
